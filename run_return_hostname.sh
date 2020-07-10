@@ -4,6 +4,6 @@ sudo apt install -y python-pip
 sudo pip install --upgrade pip
 sudo pip install Flask
 
-wget https://github.com/msrsooraj/lazyscripts/blob/master/return_hostname.py
+wget -O return_hostname.py https://github.com/msrsooraj/lazyscripts/blob/master/return_hostname.py
 
 python return_hostname.py &
