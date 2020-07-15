@@ -5,4 +5,4 @@ sudo pip install Flask
 
 wget -O return_hostname.py https://raw.githubusercontent.com/msrsooraj/lazyscripts/master/return_hostname.py
 
-sudo python return_hostname.py &
+sudo nohup python return_hostname.py &>/dev/null &disown
