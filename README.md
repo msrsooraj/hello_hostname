@@ -1,4 +1,4 @@
-# lazyscripts
+# Hello From Host!!
 
 Run the following command in terminal to download and run the script.
 
@@ -6,4 +6,9 @@ Run the following command in terminal to download and run the script.
 
 This will only work in Ubuntu Machines.
 
-Provisioning multiple Azure Ubuntu VMs under a single loadbalancer with the above command in the Run Shell Script attribute will install and run a flask application in each VM. Hitting the DNS name of the loadbalancer will return the name of the VM from which the request was served.Testing Pending. These scripts are only useful for testing. 
+Running the above command will install the falsk python packages and run a small flask-python application in the background in port 80.
+
+curl'ing localhost will return the hostname. You can also hit the ip address of the vm from a browser. Make sure the security gorup rules allow traffic to reach vm if you are hitting it directly.
+
+This script was developed to test if a load balancer is sending requests to all the vms registered under it. Running the shell command directly in the terminal or using launch templates or arm templates will provsion VMs with the said flask application running. Hitting the loadbalancer in its DNS Name will retrun the host name of the server that served the request.
+
