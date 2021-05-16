@@ -4,4 +4,4 @@ sudo pip3 install Flask
 
 wget https://raw.githubusercontent.com/msrsooraj/lazyscripts/master/return_hostname.py
 
-sudo nohup python return_hostname.py &>/dev/null &disown
+sudo nohup python3 return_hostname.py &>/dev/null &disown
