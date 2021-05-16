@@ -2,7 +2,7 @@
 
 Run the following command in terminal to download and run the script.
 
-```wget https://raw.githubusercontent.com/msrsooraj/lazyscripts/master/run_return_hostname.sh && sudo chmod +x run_return_hostname.sh && sudo  ./run_return_hostname.sh &>/dev/null &disown```
+```wget https://raw.githubusercontent.com/msrsooraj/lazyscripts/master/run_return_hostname.sh && sudo chmod +x run_return_hostname.sh && ./run_return_hostname.sh ```
 
 This will only work in Ubuntu Machines.
 
