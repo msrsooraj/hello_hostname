@@ -3,6 +3,7 @@
 This will only work in Ubuntu Machines. Run the following command in terminal to download and run the script.
 
 ```wget https://raw.githubusercontent.com/msrsooraj/lazyscripts/master/run_return_hostname.sh && sudo chmod +x run_return_hostname.sh && ./run_return_hostname.sh ```
+
 This script was written just to show non technical people what a loadbalancer does. i.e. Load balancer is sending requests to all the vms registered under it.
 
 Running the above command will install the falsk python package and run a small flask-python application in the background in port 80. The above command needs to be executed in each VM uner the loadbalancer. curl'ing localhost will return the hostname to test if the application has started. 
